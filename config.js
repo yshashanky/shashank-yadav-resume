@@ -20,5 +20,5 @@ module.exports = {
   ],
   email: '812shanky@gmail.com',
   phone: '8218233193',
-  address: 'Noida, Delhi, IN',
+  address: 'Noida, IN',
 };
