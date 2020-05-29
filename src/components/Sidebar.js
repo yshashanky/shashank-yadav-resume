@@ -11,7 +11,7 @@ export class Sidebar extends Component {
     this.state = {
       tabs: [
         { content: 'About', href: 'about' },
-        { content: 'Experience', href: 'experience' },
+        { content: 'Projects', href: 'experience' },
         { content: 'Education', href: 'education' },
         { content: 'Skills', href: 'skills' },
         { content: 'Interests', href: 'interests' },
@@ -48,7 +48,7 @@ export class Sidebar extends Component {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <Scrollspy
